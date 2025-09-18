@@ -1,6 +1,0 @@
-:root{--max-width:720px}
-body{font-family:system-ui,Segoe UI,Roboto,Ubuntu,Arial;margin:20px}
-.app{max-width:var(--max-width)}
-.controls{margin-bottom:12px}
-.sculpture{max-width:100%;height:auto;border:1px solid #ddd;padding:6px}
-.desc{margin-top:8px}
