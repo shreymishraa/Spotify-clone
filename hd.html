@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Merged Cells</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>A test table with merged cells</caption>
+
+    <tr>
+        <th rowspan="2">Gender</th>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red Eyes (%)</th>
+    </tr>
+
+    <tr>
+        <th>Height</th>
+        <th>Error</th>
+    </tr>
+
+    <tr>
+        <td>Male</td>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+
+    <tr>
+        <td>Male</td>
+        <td>1.7</td>
+        <td>0.004</td>
+        <td>50%</td>
+    </tr>
+
+    <tr>
+        <td>Female</td>
+        <td>1.6</td>
+        <td>0.002</td>
+        <td>60%</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
