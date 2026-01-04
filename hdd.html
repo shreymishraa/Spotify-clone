@@ -1,39 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">   
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HDD Information</title>  
+    <title>HDD Information</title>
 </head>
+
 <body>
-    <form action = "/action">
-    <div>
-        <label for = "username">Username:</label>
-        <input type="text" placeholder = "Enter your username" />
-       </div>   
-        <br>
+
+    <!-- Form 1 -->
+    <form action="https://www.youtube.com/results?search_query=prashant+dhawan">
+
         <div>
-        <label>
-        password
-        <input type="password" placeholder = "Enter your password" />
-        </label>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
         </div>
-        <button > submit </button>   
 
         <br>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password">
+        </div>
+
+        <br>
+
+        <button type="submit">Submit</button>
+
+        <br><br>
+
         <label>
-        Number
-        <input type= "number"/>
+            Number:
+            <input type="number">
         </label>
-        <br>
-        Time
-        <input type = "time"/>
-        <br>
-        date
-        <input type = "date"/>
+
+        <br><br>
+
+        <label>
+            Time:
+            <input type="time">
+        </label>
+
+        <br><br>
+
+        <label>
+            Date:
+            <input type="date">
+        </label>
+
     </form>
+
+    <br><br>
+
+    <!-- Form 2 -->
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Enter search" name="search_query">
+        <button type="submit">Search</button>
+    </form>
+    <form action=" https://www.google.com/search"><input type="text" placeholder="Enter search" name="q">
+<form action = "/server">
+    <input type="checkbox" id = "age" name = "age" > 
+    <label for = "age" > Age</label>
+</form>
 </body>
 </html>
+
 
 
 
