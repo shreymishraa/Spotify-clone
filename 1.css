@@ -28,9 +28,9 @@ caption {
 }
 
 #outer {
-   height : 200px;
-   width: 70;
-   border: 
+    height: 200px;
+    width: 70px;
+    border: 2px solid black;
 }
 
 #inner {
@@ -43,4 +43,37 @@ caption {
     width: 50px;
     background: #4f46e5;
     border-radius: 8px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background: #34d399;
+    border: 2px solid #065f46;
+    margin: 10px;
+    display: inline-block;
+}
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+h1{
+    text-align: center;
+
+}
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+
 }
