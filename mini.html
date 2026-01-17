@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="CSS mini project" />
+        <title>CSS Project</title>
+
+        <link rel="stylesheet" href="3.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+        />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+    </head>
+
+    <body>
+        <div class="app">
+            <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+
+            <header class="topbar">
+                <label class="icon-btn" for="nav-toggle" aria-label="Toggle menu">
+                    <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+                </label>
+                <h1 class="title">CSS Project</h1>
+            </header>
+
+            <aside class="sidebar" aria-label="Sidebar">
+                <nav class="nav">
+                    <a href="#table">Table</a>
+                    <a href="#flex">Flex</a>
+                    <a href="#grid">Grid</a>
+                </nav>
+            </aside>
+
+            <main class="content">
+                <section id="table" class="card">
+                    <h2>Table with merged cells</h2>
+                    <table>
+                        <caption>
+                            A test table with merged cells
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th rowspan="2" scope="col">Gender</th>
+                                <th colspan="2" scope="colgroup">Average</th>
+                                <th rowspan="2" scope="col">Red Eyes (%)</th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Height</th>
+                                <th scope="col">Error</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Male</td>
+                                <td>1.9</td>
+                                <td>0.003</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td>Male</td>
+                                <td>1.7</td>
+                                <td>0.004</td>
+                                <td>50%</td>
+                            </tr>
+                            <tr>
+                                <td>Female</td>
+                                <td>1.6</td>
+                                <td>0.002</td>
+                                <td>60%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section id="flex" class="card">
+                    <h2>Flex demo</h2>
+                    <div class="flex-demo">
+                        <div class="pill" style="background: #ef4444;">Shrey</div>
+                        <div class="pill" style="background: #3b82f6;">Two</div>
+                        <div class="pill" style="background: #22c55e;">Three</div>
+                        <div class="pill" style="background: #5a3e19;">Mishra</div>
+                        <div class="pill" style="background: #c6b7c7; color: #111;">Five</div>
+                    </div>
+                </section>
+
+                <section id="grid" class="card">
+                    <h2>Grid demo</h2>
+                    <div class="grid-demo" aria-label="Grid demo">
+                        <div class="cell">1</div>
+                        <div class="cell">2</div>
+                        <div class="cell">3</div>
+                        <div class="cell">4</div>
+                        <div class="cell">5</div>
+                        <div class="cell">6</div>
+                        <div class="cell">7</div>
+                        <div class="cell">8</div>
+                        <div class="cell">9</div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
