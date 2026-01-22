@@ -46,10 +46,13 @@ a{
   line-height:2.5rem;
 }
 .nav-option {
-  line-height:2.5rem ;
+  line-height:1.5rem ;
 
 }
-.nav-option:hover{
-  line-height:2.5rem;
+.nav-option i{
+  font-size: 1.25rem;
+  
+}
+.nav-option span{
   
 }
