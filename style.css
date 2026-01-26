@@ -2,7 +2,7 @@ body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   color: #fff;
-  background-color: #000;
+  background-color: #000000;
   overflow: hidden;
 
   
@@ -13,9 +13,10 @@ body {
   padding: 0.5rem;
 }
 .sidebar{
-  background-color: black ;
+  background-color: rgb(0, 5, 1) ;
   width: 340px;
   border-radius: 1rem;
+  margin-right: 0.5rem;
 }
  
 .main-content{
@@ -90,5 +91,45 @@ a{
 }
 .box{
   height: 8rem;
-  background-color: grey;
+  background-color: rgb(59, 58, 58);
+  border-radius: 0.75rem;
+  padding:1rem 1.25rem;
+  margin: 0.75rem 0 1.75rem 0;
+  
 }
+.box-p1{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.box-p2{
+  font-size:0.75rem;
+  opacity: 0.75;
+}
+.badge{
+  background-color: white;
+  border: none;
+  border-radius:100px;
+  padding: 0.25rem 1rem;
+  margin-top: 0.5rem;
+  height: 2rem;
+  width: fit-content;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
