@@ -23,6 +23,8 @@ body {
   background-color: #121212  ;
   flex: 1;
   border-radius: 1rem;
+  overflow: auto;
+  padding: 0 1.5rem 0 1.5rem ;
 }
 .music-player{
   background-color: black ;
@@ -91,7 +93,7 @@ a{
 }
 .box{
   height: 8rem;
-  background-color: rgb(59, 58, 58);
+  background-color: rgb(36, 33, 33);
   border-radius: 0.75rem;
   padding:1rem 1.25rem;
   margin: 0.75rem 0 1.75rem 0;
@@ -144,8 +146,30 @@ a{
     display: none;
   }
 }
+.card{
+  background-color: rgb(43, 42, 42)  ; 
+  width: 150px;
+  border-radius: 0.5rem;
+  padding:1rem;
+}
+.cards-container{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 
-
+}
+.card-img{
+  width:100%;
+  border-radius: 0.5rem;
+  
+}
+.card-title{
+  font-weight: 600;
+}
+.card-info{
+  font-size:0.85rem;
+  opacity: 0.8;
+}
 
 
 
