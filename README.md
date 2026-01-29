@@ -63,6 +63,4 @@ Example:
 - Icons: Font Awesome
 - Font: Montserrat (Google Fonts)
 
-## License
 
-This project is for learning purposes. Add a license file if you plan to publish it as open source.
